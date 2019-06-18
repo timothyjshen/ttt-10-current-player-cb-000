@@ -6,7 +6,6 @@ def turn_count(board)
     else
     end
   end
-  turn
 end
 
 def current_player(turn)
@@ -18,4 +17,4 @@ def current_player(turn)
 end
 
 
-board = [" ", " ", "X", "O", " ", " ", " ", " ", " "]
+board = [" ", " ", "X", " ", " ", " ", " ", " ", " "]
