@@ -1,10 +1,11 @@
 def turn_count(board)
   turn = 0
   board.each do |count|
-    if board[count] != " "
+    if count.length > 0
       turn += 1
     else
     end
+  puts turn
   end
 end
 
