@@ -1,7 +1,7 @@
 def turn_count(board)
   turn = 0
-  board.each do |count|
-    if count == "X" or count == "O"
+  board.each do |move|
+    if move == "X" or move == "O"
       turn += 1
     else
     end
