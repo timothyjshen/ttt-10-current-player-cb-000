@@ -1,12 +1,12 @@
 def turn_count(board)
   turn = 0
   board.each do |count|
-    if count.length > 0
+    if count == "X"
       turn += 1
     else
     end
-  puts turn
   end
+  puts turn
 end
 
 
