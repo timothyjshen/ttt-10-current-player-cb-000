@@ -1,12 +1,12 @@
 def turn_count(board)
   turn = 0
   board.each do |count|
-    if count == "X"
+    if count == "X" or count == "O"
       turn += 1
     else
     end
   end
-  puts turn
+  turn
 end
 
 
@@ -19,4 +19,4 @@ def current_player(turn_count)
 end
 
 
-board = [" ", " ", "X", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", "X", "O", " ", " ", " ", " ", " "]
